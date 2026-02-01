@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pandit Pavitra Shastri</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Georgia, serif;
+    background:#f6f1ea;
+    line-height:1.9;
+}
+
+header{
+    background:#7b1e1e;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.lang-btn button{
+    padding:8px 20px;
+    margin:10px 6px;
+    font-size:15px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+section{
+    padding:35px 20px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    margin-bottom:45px;
+    border-radius:18px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.15);
+}
+
+h2{
+    color:#7b1e1e;
+    border-bottom:2px solid #7b1e1e;
+    display:inline-block;
+    padding-bottom:6px;
+    margin-bottom:25px;
+}
+
+.mantra{
+    text-align:center;
+    font-size:22px;
+    margin:25px 0;
+}
+
+.symbols{
+    text-align:center;
+    font-size:32px;
+    margin:20px 0;
+}
+
+footer{
+    background:#7b1e1e;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+</style>
+
+<script>
+function showHindi(){
+    document.getElementById("hindi").style.display="block";
+    document.getElementById("english").style.display="none";
+}
+function showEnglish(){
+    document.getElementById("hindi").style.display="none";
+    document.getElementById("english").style.display="block";
+}
+</script>
+</head>
+
+<body>
+
+<header>
+    <h1>पं पवित्र शास्त्री</h1>
+    <p>Pandit & Spiritual Guide</p>
+    <div class="symbols">🔱 ॐ 🪔 🌸</div>
+
+    <div class="lang-btn">
+        <button onclick="showHindi()">हिंदी</button>
+        <button onclick="showEnglish()">English</button>
+    </div>
+</header>
+
+<section>
+
+<!-- ================= HINDI ================= -->
+<div id="hindi">
+
+<div class="card">
+<h2>हमारे बारे में</h2>
+<p>
+मैं पं पवित्र शास्त्री, एक अनुभवी पंडित एवं धार्मिक आचार्य हूँ।
+वैदिक परंपराओं के अनुसार पूजा, हवन, यज्ञ एवं समस्त संस्कार
+श्रद्धा एवं शुद्ध विधि-विधान से सम्पन्न कराता हूँ।
+</p>
+<p>
+मेरा उद्देश्य प्रत्येक श्रद्धालु के जीवन में शांति,
+सकारात्मक ऊर्जा एवं आध्यात्मिक संतुलन स्थापित करना है।
+</p>
+</div>
+
+<div class="card">
+<h2>शिव मंत्र</h2>
+<div class="mantra">ॐ नमः शिवाय</div>
+<div class="mantra">
+ॐ त्र्यम्बकं यजामहे<br>
+सुगन्धिं पुष्टिवर्धनम् ।<br>
+उर्वारुकमिव बन्धनान्<br>
+मृत्योर्मुक्षीय मामृतात् ॥
+</div>
+</div>
+
+<div class="card">
+<h2>वैदिक मंत्र</h2>
+<div class="mantra">
+सर्वे भवन्तु सुखिनः<br>
+सर्वे सन्तु निरामयाः ।
+</div>
+<div class="mantra">
+असतो मा सद्गमय ।<br>
+तमसो मा ज्योतिर्गमय ।
+</div>
+</div>
+
+<div class="card">
+<h2>सेवाएं</h2>
+<ul>
+<li>रुद्राभिषेक एवं शिव पूजा</li>
+<li> हवन एवं यज्ञ</li>
+<li>विवाह संस्कार</li>
+<li>गृह प्रवेश पूजा</li>
+<li>इत्यादि सभी धार्मिक अनुष्ठान</li></ul>
+</div>
+
+<div class="card">
+<h2>संपर्क करें</h2>
+<p>📞 8109775790</p>
+<p>📧 pavitrabhargav49@gmail.com</p>
+<p>📍 टीकमगढ़, मध्य प्रदेश</p>
+</div>
+
+</div>
+
+<!-- ================= ENGLISH ================= -->
+<div id="english" style="display:none;">
+
+<div class="card">
+<h2>About Us</h2>
+<p>
+I am Pandit Pavitra Shastri, an experienced Hindu priest
+performing Vedic rituals, puja, havan and all ceremonies
+with complete devotion and traditional methods.
+</p>
+<p>
+My aim is to bring peace, positivity and spiritual balance
+into people’s lives.
+</p>
+</div>
+
+<div class="card">
+<h2>Shiva Mantra</h2>
+<div class="mantra">Om Namah Shivaya</div>
+<div class="mantra">
+Om Tryambakam Yajamahe<br>
+Sugandhim Pushtivardhanam |
+</div>
+</div>
+
+<div class="card">
+<h2>Vedic Mantras</h2>
+<div class="mantra">
+Sarve Bhavantu Sukhinah<br>
+Sarve Santu Niramayah
+</div>
+<div class="mantra">
+Asato Ma Sadgamaya<br>
+Tamaso Ma Jyotirgamaya
+</div>
+</div>
+
+<div class="card">
+<h2>Services</h2>
+<ul>
+<li>Rudrabhishek & Shiva Puja</li>
+<li>Vedic Havan & Yagya</li>
+<li>Marriage Ceremony</li>
+<li>Griha Pravesh Puja</li>
+<li>And all other religious rituals</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Contact</h2>
+<p>📞 8109775790</p>
+<p>📧 pavitrabhargav49@gmail.com</p>
+<p>📍 Tikamgarh, Madhya Pradesh</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<div class="symbols">🔱 ॐ 🪔 🌸</div>
+<p>Spiritual guidance for peace & positivity</p>
+</footer>
+
+</body>
+  </html>
